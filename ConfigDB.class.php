@@ -5,10 +5,10 @@ class ConfigDB{
         var $User_MSSQL;
         var $Password_MSSQL;
         function ConfigDB(){
-			$this->DB_MySQL = "sisnej";
+			$this->DB_MySQL = "cargomania";
 			$this->Server_MySQL = "localhost";
-			$this->User_MySQL = "root";
-			$this->Password_MySQL= "";
+			$this->User_MySQL = "postgres";
+			$this->Password_MySQL= "analisis2";
         }
 }
 

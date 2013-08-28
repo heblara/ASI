@@ -9,7 +9,7 @@ ob_start();
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Sistema de Notificaci&oacute;n Electr&oacute;nica Judicial</title>
+<title></title>
 <link href="css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -20,7 +20,7 @@ ob_start();
 		</div>
 	</div>
 </div>
-<div style="background-color:#FFF;height:740px;">
+<div style="height:740px;">
     <div id="ie6-container-wrap">
     	<div id="container">
     		<div id="content" align="center">

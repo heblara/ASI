@@ -2,10 +2,7 @@
 /* CSS Document */
 body{
 /*font-family:"Trebuchet MS";*/
-font-family: Helvetica, Arial, sans-serif;
-/*background:url(img/tutorial.gif) fixed;*/
-/*background:#1F1F1F url(js/responsive/images/pattern.png) repeat top left;*/
-
+font-family: "Trebuchet MS";
 background-attachment:fixed;
 }
 .titulo img{
@@ -45,6 +42,16 @@ div.caption {
 	border-radius: 10px;
 	font-size:8pt;
 	/*display: none;*/
+}
+#tcontainer{
+	border:5px;
+	background-color: white;
+}
+#tcontainer td, th{
+	height: 25px;
+	border: 1px solid #D1DCEB;
+	/*border-right: 1px solid #D1DCEB;*/
+	background-color: white;
 }
 div.titulo {
 	border:solid white 2px;
@@ -172,7 +179,8 @@ a:hover{
 	color:#39C;
 }
 h1{
-	font-size:20pt;
+	font-family: "Trebuchet MS";
+	font-size:25pt;
 	text-align:center;
 }
 .titulares{

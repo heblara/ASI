@@ -10,7 +10,7 @@ ob_start();
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="estilos.css" rel="stylesheet" />
-<title>.::Comunicaci&oacute;n Interna::.</title>
+<title></title>
 <script type="text/javascript">bkLib.onDomLoaded(function() {
 		 new nicEditor({iconsPath : 'images/nicEditorIcons.gif'}).panelInstance('txtResumen');
 		 });</script>

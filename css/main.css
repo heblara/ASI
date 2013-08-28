@@ -102,13 +102,13 @@ blockquote {
 	/*font-size: 1.4em;*/
 	overflow: auto;
 	padding: 80px 0 20px;
-	background-color: #fff;
+	background-color: #eef3fa;
 }
 
 #content {
 	float: left;
 	width: 100%;
-	background-color: #fff;
+	background-color: #eef3fa;
 }
 
 #sidebar {

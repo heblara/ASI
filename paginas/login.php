@@ -38,20 +38,21 @@ p{
   					data: formulario,
 				}).done(function(respuesta){
 					//$("#mensaje").html(respuesta.mensaje);
+					//alert(respuesta.mensaje);
 					if(respuesta.mensaje==1){
 						error("Por favor llene todos los campos");
 					}else if(respuesta.mensaje==2){
 						error("Combinacion de usuario y contraseña incorrecta");
 					}else if(respuesta.mensaje==3){
 						ok("Datos correctos");
-						location.href="?mod=home";
+						location.href="index.php?mod=home";
 					}
 				});
 			});
 		});
 		</script>
 <link href="css/style2.css" rel="stylesheet" type="text/css" />
-<div id="box" style="background-image:url(img/26-Mail.png);background-repeat:no-repeat;background-position:left top;">
+<div id="box" style="background-color:white;background-image:url(images/avatar.gif);background-repeat:no-repeat;background-position:center top;">
 <div class="elements">
 <div class="avatar"></div>
 <form id="frmLogin">

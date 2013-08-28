@@ -10,8 +10,8 @@
         function conectar($tipo) {
             $conectar = new ConfigDB();
             try {
-                if($tipo=="mysql"){
-                    $dbh = new PDO("mysql:host=$conectar->Server_MySQL;dbname=$conectar->DB_MySQL","$conectar->User_MySQL","$conectar->Password_MySQL");
+                if($tipo=="pgsql"){
+                    $dbh = new PDO("pgsql:host=$conectar->Server_MySQL;port=5432;dbname=$conectar->DB_MySQL","$conectar->User_MySQL","$conectar->Password_MySQL");
                     $dbh->exec('SET CHARACTER SET utf8');
                 }
                 else{

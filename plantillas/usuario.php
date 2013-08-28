@@ -7,7 +7,7 @@ ob_start();
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Sistema de Notificaci&oacute;n Electr&oacute;nica Judicial</title>
+<title></title>
 <script src="scripts/nicEdit.js" type="text/javascript"></script>
 <link href="css/main.css" rel="stylesheet" type="text/css" />
 <link href="estilos.css" rel="stylesheet" type="text/css" />
@@ -20,7 +20,7 @@ ob_start();
 		</div>
 	</div>
 </div>
-<div style="background-color:#FFF;height:768px;">
+<div style="height:768px;">
 <div id="ie6-container-wrap">
 	<div id="container">
 		<div id="content" align="center">

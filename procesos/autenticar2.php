@@ -6,8 +6,6 @@ $pwd=$_POST["password"];
 $respuesta = new stdClass();
 if($user=="" || $user==null || trim($user)=="" || $pwd=="" || $pwd==null || trim($pwd)==""){
     $respuesta->mensaje = 1;
-    //echo "Combinaci&oacute;n de usuario y contrase&ntilde;a incorrecta";
-    //header("Location:?mod=login&msj=1");
 }else{
     $objUser=new CargoMania;
     $log=array($user,$pwd);
@@ -15,16 +13,12 @@ if($user=="" || $user==null || trim($user)=="" || $pwd=="" || $pwd==null || trim
     $c=$consultarUsuario->rowCount();
     if($c==1){ //Verificando que exista ese usuario y este activo
         $usuario=$consultarUsuario->fetch(PDO::FETCH_OBJ);
-        //session_start();
-        $_SESSION["tipo"]=$usuario->TipoUsuario;
-        $_SESSION["nombre"]=$usuario->Usuario;
-        $_SESSION["autenticado"]="si";
-        //echo "Usuario encontrado";
-        //$_SESSION["tipo"]=$usuario->TipoUsuario;
         $respuesta->mensaje = 3;
+        $_SESSION["tipo"]=$usuario->TipoUsuario;
+        $_SESSION["nombre"]=$usuario->Usuario;        
+        $_SESSION["autenticado"]="si";
     }else{ //Si los datos ingresados son incorrectos mostrara el mensaje de alerta
         $respuesta->mensaje = 2;
-        //header("Location:?mod=login&msj=2");
     }
 }
 echo json_encode($respuesta);

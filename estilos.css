@@ -5,7 +5,8 @@ body{
 	/*background:url(img/tutorial.gif) fixed;*/
 	/*background:#1F1F1F url(js/responsive/images/pattern.png) repeat top left;*/
 	background-attachment:fixed;
-	background-color: #fff;
+	background-color: #eef3fa;
+	font-family: "Trebuchet MS";
 }
 span.titulo{
 	font-family: "Trebuchet MS";
@@ -14,7 +15,7 @@ span.titulo{
 	font-weight: 900;
 }
 /*span.titulo {text-shadow: 0.1em 0.1em 0.05em #333}*/
-e#tcontainer{
+#tcontainer{
 	border:5px;
 	background-color: white;
 }
@@ -216,7 +217,7 @@ a:visited{
 	color:#036;
 }
 h1{
-	font-size:20pt;
+	font-size:25pt;
 	text-align:center;
 }
 .titulares{

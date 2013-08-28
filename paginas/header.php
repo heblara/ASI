@@ -4,6 +4,8 @@
 <link rel="stylesheet" href="themes/alertify.default.css" />
 <script src="lib/eventos.js"></script>
 <script type="text/javascript" src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="estilos.css" />
+<link rel="stylesheet" href="estilos2.css" />
 <table width="100%">
                 <tr>
                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>

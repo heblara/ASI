@@ -9,20 +9,7 @@ ob_start();
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<?php
-$c=0; 
-if($_SESSION["tipo"]=="Abogado"){
-    $objS=new Sisnej;
-    $conNot=$objS->consultar_notificacion_abogado($_SESSION["ceu"]);
-    $c=0;
-    while($res=$conNot->fetch(PDO::FETCH_OBJ)){
-        if($res->Leido==0){
-            $c++;
-        }
-    }
-}
-?>
-<title><?php if($c>0){ echo "(".$c.")"; } ?> Sistema de Notificaci&oacute;n Electr&oacute;nica Judicial</title>
+<title></title>
 <link href="css/main.css" rel="stylesheet" type="text/css" />
 <link href="estilos.css" rel="stylesheet" type="text/css" />
 <script src="js/jquery-1.8.2.js"></script>
@@ -36,7 +23,7 @@ if($_SESSION["tipo"]=="Abogado"){
 		</div>
 	</div>
 </div>
-<div style="background-color:#FFF;height:768px;">
+<div style="height:768px;">
     <div id="ie6-container-wrap">
         <div id="container">
             <div id="content" align="center">
