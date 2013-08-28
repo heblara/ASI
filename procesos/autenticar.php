@@ -16,11 +16,11 @@ if($user=="" || $user==null || trim($user)=="" || $pwd=="" || $pwd==null || trim
     $conuser=pg_query("select * from usuario where Usuario='".$user."' and Contrasena=md5('".$pwd."')");
     if(pg_num_rows($conuser)==1){ //Verificando que exista ese usuario y este activo
         //$usuario=$consultarUsuario->fetch(PDO::FETCH_OBJ);
-        //pg_fetch_assoc($conuser);
+        $usuario=pg_fetch_assoc($conuser);
         $_SESSION["autenticado"]="si";
         //session_start();
-        /*$_SESSION["tipo"]=$usuario->TipoUsuario;
-        $_SESSION["nombre"]=$usuario->Usuario;*/
+        $_SESSION["tipo"]=$usuario["tipousuario"];
+        $_SESSION["nombre"]=$usuario["usuario"];
         //echo "Usuario encontrado";
         //$_SESSION["tipo"]=$usuario->TipoUsuario;
         $respuesta->mensaje = 3;
