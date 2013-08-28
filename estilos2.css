@@ -5,6 +5,9 @@ body{
 font-family: "Trebuchet MS";
 background-attachment:fixed;
 }
+img{
+	border: 0px;
+}
 .titulo img{
 	cursor:pointer;
 }

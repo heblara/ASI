@@ -23,7 +23,7 @@ $conf['serviciobodega']=array(
 'archivo'=>'frmServicioBodega.php',
 'layout'=>LAYOUT_INICIO
 );
-$conf['agenteBodega']=array(
+$conf['agentebodega']=array(
 'archivo'=>'agente_bodega.php',
 'layout'=>LAYOUT_INICIO
 );
@@ -33,6 +33,10 @@ $conf['documentos']=array(
 );
 $conf['tipodocumento']=array(
 'archivo'=>'tipodocumento.php',
+'layout'=>LAYOUT_INICIO
+);
+$conf['tiporol']=array(
+'archivo'=>'tipo_rol.php',
 'layout'=>LAYOUT_INICIO
 );
 $conf['404']=array(

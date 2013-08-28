@@ -15,6 +15,7 @@
 if(isset($_SESSION['autenticado'])){
   if($_SESSION['autenticado']=='si'){ ?>
   <td>
+    <h1 style="float:left;">CARGOMANIA</h1>
     <a href='?mod=logout' style='float:right;padding-left:12px;'><img src='img/logout.png' width='32' title='Cerrar Sesi&oacute;n' border='1' /></a>
     <a href='?mod=changePwd' style='float:right;padding-left:12px;'><img src='img/pwd.png' width='32' title='Cambiar contrase&ntilde;a' border='1' /></a>
     <a href='?mod=infouser'  style='float:right;padding-left:12px;'><img src='img/user_info.png' width='32' title='Informací&oacute;n del usuario' border='1' />
